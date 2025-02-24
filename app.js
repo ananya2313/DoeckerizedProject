@@ -19,7 +19,9 @@ const listingsRouter = require("./routes/listing.js");
 const reviewsRouter = require("./routes/review.js");
 const userRouter = require("./routes/user.js");
 
-const MONGO_URL = "mongodb://127.0.0.1:27017/OYH";
+// const MONGO_URL = "mongodb://127.0.0.1:27017/OYH";
+const MONGO_URL = "mongodb://host.docker.internal:27017/OYH";
+
 
 main()
   .then(() => {
